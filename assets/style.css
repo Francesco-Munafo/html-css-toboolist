@@ -1,6 +1,7 @@
 html{
     font-family: 'Bitter', serif;
     font-family: 'Rubik', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 *{
     margin: 0;
@@ -16,6 +17,9 @@ html{
     --bool-mobile: rgba(242, 158, 51, 1);
     --bool-website: rgba(216, 99, 160, 1);
     --bool-sales: rgba(176, 201, 38, 1);
+    --bool-sectionfont: rgba(68, 72, 81, 1);
+    --bool-sectioncheck: rgb(109, 197, 175);
+    --bool-sectioncross: rgb(234, 86, 79);
 }
 /*#endregion Utilities*/
 
@@ -59,4 +63,50 @@ main{
     
 }
 /*#endregion PageHeader */
+
+/*#region Contents */
+#slide{
+    color: var(--bool-sectionfont);    
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    
+    
+    
+}
+
+#sectiondescrcheck{
+    color: var(--bool-sectioncheck);
+    border-color: var(--bool-sectioncheck);
+    border: solid 1px;
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 0.rem;
+}
+#sectiondescr{
+    display: inline;
+    padding: 0.5rem;
+}
+
+.bookmarkseditorial{
+    background-color: var(--bool-editorial);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem; ;
+    padding-right:0.6rem ;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    
+}
+
+/*#endregion Contents */
+
 
