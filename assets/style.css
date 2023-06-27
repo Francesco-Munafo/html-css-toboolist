@@ -49,6 +49,7 @@ main {
     margin-left: 13rem;
     margin-top: 2rem;
     padding-left: 1rem;
+    background-color: rgb(246, 248, 249);
 }
 #addtask {
     background-color: var(--bool-editorial);
