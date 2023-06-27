@@ -1,0 +1,38 @@
+html{
+    font-family: 'Bitter', serif;
+    font-family: 'Rubik', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*#region Utilities*/
+:root{
+    --bool-editorial: rgba(69, 171, 233, 1);
+    --bool-goals: rgba(156, 114, 228, 1);
+    --bool-recruiting: rgba(100, 192, 169, 1);
+    --bool-mobile: rgba(242, 158, 51, 1);
+    --bool-website: rgba(216, 99, 160, 1);
+    --bool-sales: rgba(176, 201, 38, 1);
+}
+/*#endregion Utilities*/
+
+/*#region PageHeader */
+.page_title{
+    padding: 1rem;
+    
+
+    
+}
+
+h1{
+    display: inline-block;
+    vertical-align: top ;
+    padding-top: 0.3rem ;
+
+}
+/*#endregion PageHeader */
+
+
