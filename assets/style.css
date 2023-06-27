@@ -1,16 +1,17 @@
-html{
+html {
     font-family: 'Bitter', serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Mulish', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /*#region Utilities*/
-:root{
+:root {
     --bool-editorial: rgba(69, 171, 233, 1);
     --bool-goals: rgba(156, 114, 228, 1);
     --bool-recruiting: rgba(100, 192, 169, 1);
@@ -21,62 +22,141 @@ html{
     --bool-sectioncheck: rgb(109, 197, 175);
     --bool-sectioncross: rgb(234, 86, 79);
 }
+
 /*#endregion Utilities*/
 
 /*#region PageTitle */
-.page_title{
+.page_title {
     padding: 1rem;
-    
-
-    
 }
 
-h1{
+h1 {
     display: inline-block;
-    vertical-align: top ;
-    padding-top: 0.3rem ;
+    vertical-align: top;
+    padding-top: 0.3rem;
     font-size: 40px;
-
 }
+
 /*#endregion PageHeader */
 
-main{
+/*#region PageHeader */
+
+body {
     margin-left: 13rem;
     margin-top: 2rem;
 }
-
-/*#region PageHeader */
-#addtask{
+#addtask {
     background-color: var(--bool-editorial);
     border: none;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
     color: white;
 }
-#addsection{
+
+#addsection {
     padding: 0.5rem;
     border-radius: 5px;
     border-width: 0.1rem;
     border-color: lightgray;
     width: 7rem;
     text-align: center;
-    
 }
+
 /*#endregion PageHeader */
 
 /*#region Contents */
-#slide{
-    color: var(--bool-sectionfont);    
+
+/*#region Bookmarks */
+.bookmarksq1goals {
+    background-color: var(--bool-goals);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    ;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.bookmarkseditorial {
+    background-color: var(--bool-editorial);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.bookmarkrecruiting{
+    background-color: var(--bool-recruiting);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.bookmarkmobile{
+    background-color: var(--bool-mobile);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.bookmarkwebsite{
+    background-color: var(--bool-website);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.bookmarksales{
+    background-color: var(--bool-sales);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+/*#endregion Bookmarks */
+
+.slide {
+    color: var(--bool-sectionfont);
     padding-top: 2rem;
     font-weight: bold;
     font-size: 1.2rem;
     padding-bottom: 1rem;
-    
-    
-    
 }
 
-#sectiondescrcheck{
+.sectiondescrcheck {
     color: var(--bool-sectioncheck);
     border-color: var(--bool-sectioncheck);
     border: solid 1px;
@@ -86,27 +166,36 @@ main{
     text-align: center;
     font-size: 18px;
     display: inline-block;
-    padding-top: 0.rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
-#sectiondescr{
+
+.sectiondescr {
     display: inline;
     padding: 0.5rem;
 }
 
-.bookmarkseditorial{
-    background-color: var(--bool-editorial);
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    font-size: 10px;
-    font-weight: 100;
-    padding-left: 0.6rem; ;
-    padding-right:0.6rem ;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    
+
+
+
+
+
+.sectiondescrcross {
+    color: var(--bool-sectioncross);
+    border-color: var(--bool-sectioncross);
+    border: solid 1px;
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer{
+    display: none;
 }
 
 /*#endregion Contents */
-
-
