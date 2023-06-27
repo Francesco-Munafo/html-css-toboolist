@@ -41,9 +41,10 @@ h1 {
 
 /*#region PageHeader */
 
-body {
+main {
     margin-left: 13rem;
     margin-top: 2rem;
+    padding-left: 1rem;
 }
 #addtask {
     background-color: var(--bool-editorial);
