@@ -19,7 +19,7 @@ html{
 }
 /*#endregion Utilities*/
 
-/*#region PageHeader */
+/*#region PageTitle */
 .page_title{
     padding: 1rem;
     
@@ -31,8 +31,32 @@ h1{
     display: inline-block;
     vertical-align: top ;
     padding-top: 0.3rem ;
+    font-size: 40px;
 
 }
 /*#endregion PageHeader */
 
+main{
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+/*#region PageHeader */
+#addtask{
+    background-color: var(--bool-editorial);
+    border: none;
+    padding: 0.5rem 1rem ;
+    border-radius: 5px;
+    color: white;
+}
+#addsection{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-width: 0.1rem;
+    border-color: lightgray;
+    width: 7rem;
+    text-align: center;
+    
+}
+/*#endregion PageHeader */
 
