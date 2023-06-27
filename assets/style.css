@@ -42,14 +42,14 @@ h1 {
 /*#region PageHeader */
 
 .page_header{
-    border-bottom: solid rgb(246, 248, 249);
+    border-bottom: 3px solid rgb(246, 248, 249);
 }
 
 main {
     margin-left: 13rem;
     margin-top: 2rem;
     padding-left: 1rem;
-    background-color: rgb(246, 248, 249);
+    background-color: rgb(246, 248, 249) ;
 }
 #addtask {
     background-color: var(--bool-editorial);
