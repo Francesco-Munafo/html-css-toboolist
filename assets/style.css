@@ -21,13 +21,19 @@ html {
     --bool-sectionfont: rgba(68, 72, 81, 1);
     --bool-sectioncheck: rgb(109, 197, 175);
     --bool-sectioncross: rgb(234, 86, 79);
+    --bool-background: rgb(246, 248, 249, 1);
 }
 
 /*#endregion Utilities*/
 
+body{
+    background-color: var(--bool-background);
+}
+
 /*#region PageTitle */
-.page_title {
+.page_header {
     padding: 1rem;
+    background-color: white;
 }
 
 h1 {
@@ -41,14 +47,15 @@ h1 {
 
 /*#region PageHeader */
 
-.page_header{
-    border-bottom: 3px solid rgb(246, 248, 249);
+.card_header{
+    border-bottom: 3px solid var(--bool-background);
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
 
 main {
-    margin-left: 13rem;
+    margin: 13rem ;
     margin-top: 2rem;
-    padding-left: 1rem;
     background-color: rgb(246, 248, 249) ;
 }
 #addtask {
@@ -157,39 +164,36 @@ main {
 
 /*#endregion Bookmarks */
 
-.slide {
+.itemlist {
     color: var(--bool-sectionfont);
-    padding-top: 2rem;
     font-weight: bold;
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    padding-left: 2rem;
 }
 
-.sectiondescrcheck {
+.check {
+    display: inline-block;
     color: var(--bool-sectioncheck);
-    border-color: var(--bool-sectioncheck);
-    border: solid 1px;
+    border: solid 1px var(--bool-sectioncheck);
     border-radius: 50%;
     width: 1.7rem;
     height: 1.7rem;
     text-align: center;
     font-size: 18px;
+    }
+
+span{
+    padding-left: 0.5rem;
+}
+
+
+
+
+
+
+.cross {
     display: inline-block;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-}
-
-.sectiondescr {
-    display: inline;
-    padding: 0.5rem;
-}
-
-
-
-
-
-
-.sectiondescrcross {
     color: var(--bool-sectioncross);
     border-color: var(--bool-sectioncross);
     border: solid 1px;
@@ -198,13 +202,17 @@ main {
     height: 1.7rem;
     text-align: center;
     font-size: 18px;
-    display: inline-block;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-}
+   }
 
 footer{
     display: none;
 }
 
+.line{
+padding: 1rem 0;
+list-style: none;
+}
 /*#endregion Contents */
+li{
+ padding-bottom: 1rem;
+}
